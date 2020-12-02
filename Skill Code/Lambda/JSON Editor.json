@@ -1,0 +1,78 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "gray hill",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "No",
+                        "Stop please",
+                        "Stop"
+                    ]
+                },
+                {
+                    "name": "ContinueWithPlayIntent",
+                    "slots": [],
+                    "samples": [
+                        "Try again",
+                        "Yes please",
+                        "Yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "YouPickedCottageIntent",
+                    "slots": [],
+                    "samples": [
+                        "I would like to pick cottage",
+                        "I pick cottage",
+                        "Cottage please",
+                        "Cottage"
+                    ]
+                },
+                {
+                    "name": "YouPickedFlatIntent",
+                    "slots": [],
+                    "samples": [
+                        "Flat please",
+                        "I would like to pick flat",
+                        "I pick flat",
+                        "Flat"
+                    ]
+                },
+                {
+                    "name": "YouPickedModernHouseIntent",
+                    "slots": [],
+                    "samples": [
+                        "Modern house please",
+                        "I would like to pick modern house",
+                        "I pick modern house",
+                        "Modern house"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
